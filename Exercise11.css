@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>Exercise 11</title>
+​<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+*{ 
+box-sizing: border-box;
+}
+body { 
+
+margin-left: 10px;
+margin-right: 10px;
+}
+.top{
+
+  width: 45%;
+  height: 10%;
+  padding:10;
+  float: left;
+  
+}
+.top1{
+
+  width: 45%;
+  height: 10%;
+  padding:10;
+  float: left;
+} 
+.big{
+width: 95%;
+height: 42%;
+margin-top: 20px;
+padding: 20;
+float:left;
+}
+
+
+.third{
+width: 30%;
+height: 30%;
+padding: 20;
+float: left;
+margin-top: 20px;
+}
+
+.thirdb{
+width: 30%;
+height: 30%;
+padding: 20;
+float: left;
+margin-top: 20px;
+
+}
+
+.thirda{
+width: 30%;
+height: 30%;
+padding: 20;
+margin-top: 20px;
+float: left;
+
+}
+.fourth{
+width: 20%;
+height: 30%;
+padding: 25;
+float: left;
+margin-top: 20px;
+
+}
+
+.fourtha{
+width: 20%;
+height: 30%;
+padding: 25;
+margin-top: 20px;
+float: left;
+
+}
+
+.fourthb{
+width: 20%;
+height: 30%;
+padding: 25;
+margin-top: 20px;
+float: left;
+}
+
+.fourthc{
+width: 20%;
+height: 30%;
+padding: 25;
+float: left;
+margin-top: 20px;
+
+}
+
+@media screen and (max-width: 1024px) {
+	 .big{
+    width: auto;
+margin-left: 20px;
+margin-right: 60px;
+	 }
+	 .third, .thirda, .thirdb{
+		width: 25%;
+margin-left: 20px;
+	 }
+	 .fourth, .fourtha, .fourthb, .fourthc {
+	  width: 18%; 
+	
+	 }
+	  .top{
+		  width: 45%; 
+	  }
+	  .top1{
+		 width: 45%;
+	  }
+ }
+
+@media screen and (max-width: 768px) {
+  .top, .top1, .big, .third, .thirda, .thirdb{
+    width: 100%;
+margin-left: auto;
+margin-right: auto;
+  }
+.fourth, .fourtha, .fourthb, .fourthc {
+	width: 30%;
+	margin-left: auto;
+margin-right: auto;
+}
+.fourtha, .fourthc {
+	float: right;
+}
+}
+
+@media screen and (max-width: 320px) {
+  .top, .top1, .big, .third, .thirda, .thirdb,.fourth, .fourtha, .fourthb, .fourthc {
+    width: 100%;
+margin-left: auto;
+margin-right: auto;
+float: left;
+  }
+}
+  
+ 
+	
+ 
+</style>
+</head>
+</html>
