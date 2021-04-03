@@ -4,9 +4,7 @@
 ​<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 
-*{ 
-box-sizing: border-box;
-}
+
 body { 
 
 margin-left: 5px;
@@ -49,7 +47,7 @@ font-size:5vw;
 
 
 .third{
-width: 30%;
+width: 28%;
 height: 30%;
 padding: 20;
 float: left;
@@ -60,7 +58,7 @@ font-family: Arial;
 }
 
 .thirdb{
-width: 30%;
+width: 28%;
 height: 30%;
 padding: 20;
 float: left;
@@ -71,7 +69,7 @@ font-family: Arial;
 }
 
 .thirda{
-width: 30%;
+width: 28%;
 height: 30%;
 padding: 20;
 margin-top: 20px;
@@ -174,7 +172,7 @@ height: 30%;
 	font-size:5vw;
 }
 .third, .thirda, .thirdb{
-	font-size: 3vw;
+	font-size: 2vw;
 }
 .top1{
 	float:left;
