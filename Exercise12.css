@@ -1,0 +1,207 @@
+<html>
+<head>
+<title>Exercise 11</title>
+​<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+*{ 
+box-sizing: border-box;
+}
+body { 
+
+margin-left: 5px;
+margin-right: 5px;
+}
+.top{
+
+  width: 45vw;
+  height: 5vw;
+  padding:10;
+  float: left;
+  background-image: linear-gradient(yellow, #FFFF99);
+  margin: 10px;
+  font-family: Arial;
+  font-size: 5vw;
+  
+  
+}
+.top1{
+
+  width: 45vw;
+  height: 5vw;
+  padding:10;
+  background-image: linear-gradient(yellow, #FFFF99);
+  margin: 10px;
+  font-family: Arial; 
+  display: inline-block;
+  font-size: 3vw;
+} 
+.big{
+width: 95%;
+height: 42%;
+margin-top: 20px;
+padding: 20;
+float:left;
+background-image: url(images/luneta.jpg), linear-gradient(rgba(0,0,0,5), rgba(255,255,255,0));
+background-blend-mode: overlay;
+font-size:5vw;
+}
+
+
+.third{
+width: 30%;
+height: 30%;
+padding: 20;
+float: left;
+margin-top: 20px;
+background-image:  url(images/banaue.jpg), linear-gradient(rgba(0,0,0,5), rgba(255,255,255,0));
+background-blend-mode: overlay;
+font-family: Arial;
+}
+
+.thirdb{
+width: 30%;
+height: 30%;
+padding: 20;
+float: left;
+margin-top: 20px;
+background-image:  url(images/boracay.jpg), linear-gradient(rgba(0,0,0,5), rgba(255,255,255,0));
+background-blend-mode: overlay;
+font-family: Arial;
+}
+
+.thirda{
+width: 30%;
+height: 30%;
+padding: 20;
+margin-top: 20px;
+float: left;
+background-image:  url(images/mindanao.jpg), linear-gradient(rgba(0,0,0,5), rgba(255,255,255,0));
+background-blend-mode: overlay;
+font-family: Arial;
+}
+.fourth{
+width: 20%;
+height: 30%;
+padding: 25;
+float: left;
+margin-top: 10px;
+ background-image: linear-gradient(yellow, #FFFF99);
+ font-family: Arial;
+ 
+}
+
+.fourtha{
+width: 20%;
+height: 30%;
+padding: 25;
+margin-top: 10px;
+float: left;
+ background-image: linear-gradient(yellow, #FFFF99);
+ font-family: Arial;
+
+}
+
+.fourthb{
+width: 20%;
+height: 30%;
+padding: 25;
+margin-top: 10px;
+float: left;
+ background-image: linear-gradient(yellow, #FFFF99);
+ font-family: Arial;
+}
+
+.fourthc{
+width: 20%;
+height: 30%;
+padding: 25;
+float: left;
+margin-top: 10px;
+ background-image: linear-gradient(yellow, #FFFF99);
+ font-family: Arial;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+	 .big{
+    width: auto;
+margin-left: 20px;
+margin-right: 20px;
+font-size: 5vw;
+	 }
+	 .third, .thirda, .thirdb{
+		width: 25%;
+margin-left: 20px;
+	 }
+	 .fourth, .fourtha, .fourthb, .fourthc {
+	  width: 18%; 
+	  font-size: 1.5vw;
+	 }
+	  .top{
+		  width: 40%; 
+		  
+	  }
+	  .top1{
+		 width: 40%;
+		 float: right;
+		 
+	  }
+ }
+
+@media screen and (max-width: 768px) {
+	body{
+		margin: 0px;
+	}
+  .top, .top1, .big, .third, .thirda, .thirdb{
+    width: 100%;
+margin-left: auto;
+margin-right: auto;
+font-size: 5vw;
+  }
+.fourth, .fourtha, .fourthb, .fourthc {
+	width: 30%;
+	margin-left: auto;
+margin-right: auto;
+font-size:2vw;
+height: 30%;
+}
+.fourtha, .fourthc {
+	float: right;
+}
+.big{
+	font-size:5vw;
+}
+.third, .thirda, .thirdb{
+	font-size: 3vw;
+}
+.top1{
+	float:left;
+}
+
+@media screen and (max-width: 320px) {
+	body{
+		margin: 0px;
+	}
+  .top, .top1, .big, .third, .thirda, .thirdb,.fourth, .fourtha, .fourthb, .fourthc {
+    width: 100%;
+margin-left: auto;
+margin-right: auto;
+float: left;
+  }
+  .third, .thirda, .thirdb{
+	  font-size: 4vw;
+  }
+  .fourth, .fourtha, .fourthb, .fourthc {
+	  font-size: 5vw;
+}
+.big{
+	font-size: 12vw;
+}
+}
+	
+ 
+</style>
+</head>
+</html>
